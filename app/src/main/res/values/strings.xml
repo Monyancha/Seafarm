@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Seafarm</string>
+    <string name="register">Don\'t have an account yet? Register Now</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="seller_setup">Setup Auction</string>
+    <string name="fish">Fish</string>
+    <string name="quantity">Quantity</string>
+    <string name="startingBid">Starting Bid</string>
+    <string name="minimumQuantity">Min Qty</string>
+    <string name="StartTime">Start Time</string>
+    <string name="EndTime">Duration</string>
+    <string name="PlaceAuction">Place Auction</string>
+    <string name="Auction">Auction</string>
+    <string name="COD">COD</string>
+    <string name="minimumBid">Min Bid</string>
+    <string name="SellerName">Seller: xyz</string>
+    <string name="bid">bid</string>
+    <string name="pages">1 2 3 4 5 6</string>
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="labelminQty">Min Qty</string>
+    <string name="labelminBid">Min Bid</string>
+    <string name="rating">rating: 4/5</string>
+    <string name="keplin">Capelin</string>
+    <string name="SellerName1">Seller: abc</string>
+    <string name="logout">Logout</string>
+</resources>

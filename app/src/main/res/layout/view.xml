@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src = "@drawable/logo"
+            tools:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/Auction"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/fishV"
+                android:layout_width="130dp"
+                android:layout_height="156dp"
+                android:src = "@drawable/cod"
+                tools:srcCompat="@drawable/cod" />
+            <LinearLayout
+                android:id="@+id/LinearLayout2.1"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/fishName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:text="@string/COD" />
+
+                <TextView
+                    android:id="@+id/SellerInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_weight="1"
+                    android:text="@string/SellerName"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/rating"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/bid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/bid"
+                    android:background="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2.2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/mQ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/labelminQty"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:id="@+id/Miniqty"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="1000 lb"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/mB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/labelminBid"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/MiniBid"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="$10/lb"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="158dp"
+                android:src="@drawable/fish"
+                tools:srcCompat="@drawable/fish" />
+            <LinearLayout
+                android:id="@+id/LinearLayout3.1"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/fishName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:text="@string/keplin" />
+
+                <TextView
+                    android:id="@+id/SellerInfo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_weight="1"
+                    android:text="@string/SellerName1"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rating1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/rating"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/bid1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/bid"
+                    android:background="@color/colorPrimary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LinearLayout3.2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/mQ1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/labelminQty"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:id="@+id/Miniqty1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="1000 lb"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/mB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/labelminBid"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/MiniBid1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:text="$20/lb"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pages"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/pages" />
+    <Button
+        android:id="@+id/a_logout"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/logout"/>
+
+</RelativeLayout>
